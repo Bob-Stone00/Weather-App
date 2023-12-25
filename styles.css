@@ -1,0 +1,91 @@
+body {
+    width: 70%;
+    margin: 10px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+main {
+    
+    background-blend-mode: screen;
+    background-image: linear-gradient(to bottom right ,rgb(8, 195, 219),rgb(8, 64, 185),rgb(8, 185, 76));
+}
+
+#weather-image {
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+   
+}
+
+.div1 {
+    background-blend-mode: screen;
+    margin: 0;
+
+}
+
+.weather-text {
+    position: absolute;
+    top:10px;
+    z-index: 2;
+    margin-left: 20px;
+    color: white;
+}
+
+.weather-day {
+    border:none;
+    background-image: linear-gradient(to bottom right ,rgb(36, 45, 57) 11.2%,rgb(16, 37, 60) 51.2%,rgb(0, 0, 0) 98.6%);
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.weather-text-div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 600px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.weather-text-div p {
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+.weather-text-div h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+#time-day {
+    width: 60px;
+    text-align: center;
+}
+
+.weather-day-sub {
+    background-image: linear-gradient(to bottom right ,rgb(36, 45, 57) 11.2%,rgb(16, 37, 60) 51.2%,rgb(0, 0, 0) 98.6%);
+    position: relative;
+    top:-10px;
+    padding: 30px;
+    color:white;
+    
+    filter: blur(0.2px);
+}
+
+#time-day-sec {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+   
+}
+
+.weather-day-sub h2 {
+    margin: 0;
+    font-size: medium;
+    color: white;
+}
